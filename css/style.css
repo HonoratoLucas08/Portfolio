@@ -1,0 +1,52 @@
+:root{
+    --branco: #fff;
+    --gradienteFundo: linear-gradient(135deg, #2A3543 0%, #232323 100%);
+}
+
+/* regras genéricas */
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: var(--gradienteFundo);
+    background-attachment: fixed;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding:0
+}
+
+ul li a{
+    text-decoration: none;
+    color: var(--branco);
+}
+
+/* regras referentes ao header e nav */
+header{
+    width: 90%;
+    margin: auto;
+    height: 9vh;
+    display: flex;
+    align-items: center;
+}
+
+.navHeader{
+    width: 30%;
+}
+
+.iconsHeader{
+    width: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.iconHeader{
+    font-size: 4vh;
+}
